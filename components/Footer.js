@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
         <a href="./">
-        Go home{' '}
+        Back to Home Page{' '}
         <img src="/newyorktimes.svg" alt="News Logo" className={styles.logo} />
         </a>
         </footer>

@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the 🖋 <a href="https://abbot.ink">Abbot Inkwell</a>!
+        🖋 Welcome to the <a href="https://abbot.ink">Abbot Inkwell</a>!
         </h1>
         <br />
 
@@ -27,8 +27,9 @@ export default function Home() {
           <Card url="/blog" title="📰 Articles" text="Blog posts and news from Abbot!"/>
           <Card url="https://andover.edu" title="The Team" text="The people behind this website."/>
         </div>
-        <p>Join our Substack Newsletter!</p>
-        <iframe src="https://abbotink.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+        <br />
+        <p className="subtitle">Join our Substack Newsletter to get email updates on newsletters and cool perks!</p>
+        <iframe src="https://abbotink.substack.com/embed" className={styles.substack}></iframe>
 
       </main>
       
